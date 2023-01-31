@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <title>Brandon in a Nutshell</title>
+    <link rel="icon" href="img/Profile Pic Small.jpg" >
+
+</head>
+<body>
+    <h1>Brandon</h1>
+    <br />
+    <img src="img/IMG_8887.jpg" width="300" height="300" />
+    <br />
+    <p>
+        I hope to learn how to build an .NET
+        webapp and emply those skills to further my
+        knowledge of coding and creating solutions ot problems.
+        I also hope to become a better problem solver. Finally,
+        I hope to be able to enhance my mental faculties.
+    </p>
+    <br />
+    <ol>
+        <li>Software Engineer</li>
+        <li>Data Analyst</li>
+        <li>Business Analyst</li>
+    </ol>
+    <br />
+    <!--Recieves input from the user about the individual grade weights-->
+    <form> 
+        <label>Assignments</label>
+        <input type="number" id="assignment" />
+        <br />
+        <label>Group Project</label>
+        <input type="number" id="groupProject" />
+        <br />
+        <label>Quizzes</label>
+        <input type="number" id="quiz" />
+        <br />
+        <label>Midterm Exam</label>
+        <input type="number" id="mExam" />
+        <br />
+        <label>Final Exam</label>
+        <input type="number" id="fExam" />
+        <br />
+        <label>INTEX</label>
+        <input type="number" id="intex" />
+        <br />
+
+        <input id="gradeCalc" type="button" value="Calculate Final Grade" />
+        <br />
+        <h3>Final Grade:
+        <label id="finalLetterGrade"></label>
+        </h3>
+    </form>
+
+
+    <script src="lib/jQuery/jquery.min.js"></script>
+    <script src="js/functions.js"></script>
+</body>
+</html>
