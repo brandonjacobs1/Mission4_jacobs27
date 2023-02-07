@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <title>@ViewData["Title"]</title>
+    <link rel="icon" src="~/img/Profile Pic Small.jpg" />
+</head>
+<body>
+    <nav>
+        <a asp-controller="Brandon" asp-action="Index">Home</a>
+        <a asp-controller="Brandon" asp-action="gradeCalculator">Grade Calculator</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="~/lib/jQuery/jquery.min.js"></script>
+    <script src="~/js/functions.js"></script>
+</body>
+</html>
